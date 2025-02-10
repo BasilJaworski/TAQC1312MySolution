@@ -1,1 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache files
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.tox/
+.cache/
+.coverage
+
+# Playwright specific
+playwright/.cache/
+playwright/screenshots/
+playwright/videos/
+playwright/traces/
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# Environment variables
+.env
+.env.local
+.env.*.json
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.iml
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# Docker
+Dockerfile
+docker-compose.yml
+*.tar
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux files
+*~
+.nfs*
